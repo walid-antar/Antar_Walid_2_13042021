@@ -478,3 +478,225 @@ footer a:hover
 	font-weight: 600;
 	color: #0065FC;
 }
+            /* RESPONSIVE MOBILE*/
+            
+@media only screen and (max-width: 600px)
+{
+               
+    #main
+    {
+        margin: 0;
+    }
+            
+    h2
+    {
+        font-size: 1.4rem;
+    }
+
+    header
+    {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .logo
+    {
+        margin-left: 20px;
+    }
+
+    .signUp
+    {
+        align-self: flex-end;
+        padding: 0;
+        margin-right: 20px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    nav
+    {
+        order:3;
+    }
+
+    nav ul
+    {
+        width: 100%;
+    }
+
+    nav li
+    {
+        width: 50%;
+        text-align: center;
+        padding: 20px 0;
+        border-bottom: 3px solid #f2f2f2;
+    }
+
+    nav li a
+    {
+        padding: inherit;
+    }
+
+    nav li a:hover
+    {
+        border-top: none;
+    }
+
+    nav li:hover
+    {
+        border-bottom-color:#0065FC;
+    }
+
+    .search
+    {
+        margin: 30px 20px;
+    }
+
+    .searchInput
+    {
+        flex: 1;
+    }
+
+    .searchBar
+    {
+        margin: 35px 0 30px;
+    }
+
+    .searchButton
+    {
+        position: relative;
+        width: 50px;
+        border-radius: 15px;
+        left: -20px;
+    }
+
+    .searchButton span
+    {
+        display: none;
+    }
+
+    .searchButton i
+    {
+        display: inline-block;
+    }
+
+    .textFilter
+    {
+        margin-left: 20px;
+        margin-bottom: 12px;
+    }
+
+    .filters
+    {
+        display: flex;
+        margin-bottom: 12px;
+        margin-left: -25px;
+    }
+
+    .containerHotels
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .cadreHotel
+    {
+        height: 200px;
+    }
+
+    .hotels
+    {
+        padding: 0 20px;
+        background-color: initial;
+        margin-bottom: 50px;
+    }
+
+    .Tabhotels
+    {
+        grid-template: repeat(6, 1fr) / 1fr;
+        gap: 15px;
+    }
+
+    .cadreHotel img
+    {
+        height: 116px;
+    }
+
+    .hotelDescription p
+    {
+        font-size: .9rem;
+    }
+
+    .populaire
+    {
+        margin-left: -5vw;
+        border-radius: 0;
+        padding: 40px 20px 30px;
+        margin-bottom: 40px;
+    }
+
+    .iconePopulaire h2
+    {
+        margin: 20px 0 20px 20px;
+    }
+
+    .cadrePopulaire
+    {
+        height: 145px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+
+    .iconePopulaire i
+    {
+        font-size: 1.4rem;
+    }
+
+    .Nomhotel
+    {
+        font-size: 1rem !important;
+    }
+
+    .descriptionPopulaire p
+    {
+        font-size: .9rem;
+    }
+
+    .descriptionPopulaire
+    {
+        padding: 15px 10px 10px 20px;
+    }
+
+    .fa-star
+    {
+        font-size: .8rem !important;
+        letter-spacing: 1px;
+    }
+
+    .cartesAct
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .enTeteAct
+    {
+        margin: 10px 20px 50px;
+    }
+
+    .photoImg
+    {
+        height: 9rem;
+    }
+
+    footer
+    {
+        flex-direction: column;
+        padding: 45px 30px;
+    }
+
+    footer div
+    {
+        padding: 0;
+    }
+}
+            
