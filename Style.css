@@ -309,3 +309,70 @@ nav li a:hover
 	font-weight: 700;
 	font-size: 1.2rem;
 }
+.populaire
+{
+	flex: 1;
+	margin-left: 3%;
+}
+
+.iconePopulaire
+{
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.iconePopulaire h2
+{
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+.iconePopulaire i
+{
+	font-size: 1.5rem;
+}
+
+.cadrePopulaire
+{
+	height: 160px;
+	border: 5px solid #fff;
+	border-radius: 15px;
+	margin-bottom: 30px;
+	box-shadow: 0 0 7px #c1c1c1;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.cadrePopulaire img
+{
+	width: 40%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.descriptionPopulaire
+{
+	flex: 1;
+	background-color: #F2F2F2;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.Nomhotel
+{
+	margin: 0;
+	font-weight: 700;
+	font-size: 1.1rem;
+}
+
+.descriptionPopulaire .Nomhotel + p
+{
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+.whiteStar
+{
+	color: #fff;
+}
