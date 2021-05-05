@@ -99,3 +99,213 @@ nav li a:hover
 	margin-bottom: 30px;
 	height: 50px;
 }
+
+.containerMarker
+{
+	background-color: #f2f2f2;
+	border-radius: 15px 0 0 15px;
+	width: 50px;
+	flex-shrink: 0;
+}
+
+.containerMarker i
+{
+	margin: auto;
+	font-size: 1.2rem;
+}
+
+.searchInput
+{
+	border: 1px solid #f2f2f2;
+	padding: 0 0 0 15px;
+	font-size: 1.1rem;
+	width: 230px;
+}
+
+.searchInput::placeholder
+{
+	color: black;
+}
+
+.searchButton
+{
+	width: 130px;
+	background-color: #0065FC;
+	border: none;
+	padding: 0;
+	border-radius: 0 15px 15px 0;
+	color: blanchedalmond;
+}
+
+.searchButton i
+{
+	display: none;
+}
+
+.searchButton:hover
+{
+	background-color: #DEEBFF;
+	color: black;
+}
+
+.textFilter
+{
+	align-self: center;
+}
+
+.filters
+{
+	flex-wrap: wrap;
+	font-weight: 700;
+	font-size: 1.1rem;
+	margin-bottom: 30px;
+}
+
+.filter
+{
+	align-items: center;
+	height: 46px;
+	border: 2px solid #F2F2F2;
+	border-left: none;
+	margin-left: 20px;
+	padding-right: 20px;
+	border-radius: 25px;
+}
+
+.filter span
+{
+	padding-left: 12px;
+}
+
+.filter:hover
+{
+	cursor: pointer;
+	border-color: #0065FC;
+	color: #0065FC;
+}
+
+.filterList
+{
+	flex-wrap: wrap;
+}
+
+.iconFilter
+{
+	position: relative;
+	right: 1px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #DEEBFF;
+}
+
+.iconFilter i
+{
+	margin: auto;
+	color: #0065FC;
+}
+
+.iconInfo
+{
+	height: 20px;
+	width: 20px;
+	border: 1px solid #F2F2F2;
+	border-radius: 1rem;
+	margin-right: 10px;
+}
+
+.iconInfo i
+{
+	margin: auto;
+	font-size: .9rem;
+	color: #0065FC;
+}
+
+.hotels, .populaire
+{
+	background-color: #f2f2f2;
+	border-radius: 20px;
+	padding: 40px;
+}
+
+.hotels
+{
+	flex: 2;
+}
+
+.hotels > h2
+{
+	margin: 0;
+}
+
+.Tabhotels
+{
+	display: grid;
+	grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+	gap: 30px;
+	margin: 30px 0 50px;
+}
+
+.cadrehotel
+{
+	display: grid;
+	height: 220px;
+	grid-template-rows: 1fr 40%;
+	box-sizing: border-box;
+	border: 5px solid #fff;
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow: 0 0 7px #c1c1c1;
+}
+
+.cadrehotel:hover
+{
+	transform: scale(1.01);
+}
+
+.cadrehotel img
+{
+	width: 100%;
+	height: 126px;
+	object-fit: cover;
+}
+
+.Descriptionhotel
+{
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #fff;
+	padding: 5px 10px;
+}
+
+.Descriptionhotel p
+{
+	margin: 0;
+}
+
+.etoilehotel
+{
+	word-spacing: -1ch;
+}
+
+.fa-star
+{
+	font-size: .8rem;
+	letter-spacing: 2px;
+}
+
+.blueStar
+{
+	color: #0065FC;
+}
+
+.greyStar
+{
+	color: #f2f2f2;
+}
+
+.voirPlus
+{
+	font-weight: 700;
+	font-size: 1.2rem;
+}
