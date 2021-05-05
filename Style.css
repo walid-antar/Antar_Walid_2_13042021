@@ -376,3 +376,84 @@ nav li a:hover
 {
 	color: #fff;
 }
+.activité
+{
+	margin-bottom: 3rem;
+}
+
+.enTeteAct
+{
+	margin-bottom: 2rem;
+}
+
+.cartesAct
+{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 2.5vw;
+	grid-row-gap: 2rem;
+}
+
+.carteAct
+{
+	display: flex;
+	justify-content: center;
+	border-radius: 1.5rem;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+	transition-duration: 0.1s;
+}
+
+.carteAct:hover
+{
+	transform: scale(1.01);
+}
+
+.carteAct1
+{
+	grid-area: 1 / 1 / 3 / 2;
+}
+
+.carteAct2
+{
+	grid-area: 1 / 2 / 2 / 3;
+}
+
+.carteAct3
+{
+	grid-area: 2 / 2 / 3 / 3;
+}
+
+.carteAct4
+{
+	grid-area: 1 / 3 / 3 / 4;
+}
+
+.carteAct5
+{
+	grid-area: 1 / 4 / 2 / 5;
+}
+
+.carteAct6
+{
+	grid-area: 2 / 4 / 3 / 5;
+}
+
+.photoImg
+{
+	width: 100%;
+	height: 11rem;
+	object-fit: cover;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+}
+
+.photoImgHaute
+{
+	height: 30.5rem;
+}
+
+.titreAct
+{
+	padding: 1rem;
+}
