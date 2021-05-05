@@ -457,3 +457,24 @@ nav li a:hover
 {
 	padding: 1rem;
 }
+footer
+{
+	padding: 40px 50px 50px;
+	background-color: #f2f2f2;
+}
+
+footer div
+{
+	flex: 1;
+}
+
+footer li
+{
+	margin-bottom: 15px;
+}
+
+footer a:hover
+{
+	font-weight: 600;
+	color: #0065FC;
+}
