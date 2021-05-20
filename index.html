@@ -18,7 +18,7 @@
 				</div>
 				<nav class="flex">
 					<ul class="flex">
-						<li><a href="#ancrehotels">Hébergements</a></li>
+						<li><a class="hotel" href="#ancrehotels">Hébergements</a></li>
 						<li><a href="#activity">Activités</a></li>
 					</ul>
 				</nav>
@@ -33,7 +33,7 @@
 					<div class="containerMarker flex">
 						<i class="fas fa-map-marker-alt"></i>
 					</div>
-					<input type="search" class="searchInput" placeholder="Marseille, France">
+					<input type="search" class="searchInput" value="Marseille, France" placeholder="Veuillez saisir votre recherche">
 					<button class="searchButton">
 						<span>Rechercher</span>
 						<i class="fas fa-search"></i>
@@ -75,7 +75,7 @@
 					<div class="iconInfo flex">
 						<i class="fas fa-info"></i>
 					</div>
-					Plus de 500 logements sont disponibles sans cette ville
+					Plus de 500 logements sont disponibles dans cette ville
 				</div>
 			</div>
             <div class="containerHotels flex">
@@ -203,19 +203,18 @@
                 <!--Populaire-->
 				<section class="populaire">
 					<div class="iconePopulaire flex">
-						<h2>Les plus populaires</h2>
+						<h2 class="titlePopulaire">Les plus populaires</h2>
 						<i class="fas fa-chart-line"></i>
 					</div>
 					<div class="Tabpopulaire">
 						<a href="#">
 							<article class="cadrePopulaire flex">
-								<img src="assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"alt="Photo d'une chambre luxueuse avec un grand lit double">
+								<img src="assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Photo d'une chambre luxueuse avec un grand lit double">
 								<div class="descriptionPopulaire flex">
 									<div>
 										<h3 class="Nomhotel">Hôtel Le soleil du <br> matin</h3>
 										<p>
-											Nuit à partir de 128
-											<strong>€</strong>
+											Nuit à partir de 128<strong>€</strong>
 										</p>
 									</div>
 									<div class="etoilehotel">
@@ -230,13 +229,12 @@
 						</a>
 						<a href="#">
 							<article class="cadrePopulaire flex">
-								<img src="assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"alt="Photo d'une chambre moderne avec un grand lit double">
+								<img src="assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Photo d'une chambre moderne avec un grand lit double">
 								<div class="descriptionPopulaire flex">
 									<div>
 										<h3 class="Nomhotel">Au coeur de l'eau Chambres d'hôtes</h3>
 										<p>
-											Nuit à partir de 71
-											<strong>€</strong>
+										Nuit à partir de 71<strong>€</strong>
 										</p>
 									</div>
 									<div class="etoilehotel">
@@ -251,13 +249,12 @@
 						</a>
 						<a href="#">
 							<article class="cadrePopulaire flex">
-								<img src="assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"alt="Photo d'une chambre avec un lit double">
+								<img src="assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Photo d'une chambre avec un lit double">
 								<div class="descriptionPopulaire flex">
 									<div>
-										<h3 class="nomhotel">Hôtel Tout bleu et Blanc</h3>
+										<h3 class="Nomhotel">Hôtel Tout bleu et Blanc</h3>
 										<p>
-											Nuit à partir de 68
-											<strong>€</strong>
+											Nuit à partir de 68<strong>€</strong>
 										</p>
 									</div>
 									<div class="etoilehotel">
@@ -272,52 +269,74 @@
 						</a>
 					</div>
 				</section>
-            </div>
-			<!--Activités-->
-			<section class="activité" id="activity">
-				<div class="cadreActivité">
-					<h2 class="enTeteAct">Activités à Marseille</h2>
-				</div>
-				<div class="cartesAct">
-					<div class="carteAct carteAct1">
-						<a class="lienAct" href="#">
-							<img class="photoImg photoImgHaute" src="assets/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Image du vieux pour de Marseille">
-							<h3 class="titreAct">Vieux Port</h3>
-						</a>
-					</div>
-					<div class="carteAct carteAct2">
-						<a class="lienAct" href="#">
-							<img class="photoImg" src="assets/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Image du Fort de Pomègues">
-							<h3 class="titreAct">Fort de Pomègues</h3>
-						</a>
-					</div>
-					<div class="carteAct carteAct3">
-						<a class="lienAct" href="#">
-							<img class="photoImg" src="assets/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Image de l'Îles du Frioul">
-							<h3 class="titreAct">Îles du Frioul</h3>
-						</a>
-					</div>
-					<div class="carteAct carteAct4">
-						<a class="lienAct" href="#">
-							<img class="photoImg photoImgHaute" src="assets/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Image du Parc National des Calanques">
-							<h3 class="titreAct">Parc National des Calanques</h3>
-						</a>
-					</div>
-					<div class="carteAct carteAct5">
-						<a class="lienAct" href="#">
-							<img class="photoImg" src="assets/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Imgae de Notre-Dame-de-la-Garde">
-							<h3 class="titreAct">Notre-Dame-de-la-Garde</h3>
-						</a>
-					</div>
-					<div class="carteAct carteAct6">
-						<a class="lienAct" href="#">
-							<img class="photoImg" src="assets/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Image du Parc Longchamp">
-							<h3 class="titreAct">Parc Longchamp</h3>
-						</a>
-					</div>
-				</div>
-			</section>
-		</div>    
+			</div>
+		
+				<!--ACTIVITÉ-->
+				<h2 class="activityTitle" id="activity">Activités à Marseille</h2>
+				<section class="activity">
+					<a href="#" class="activityCard activityCard1">
+					  <div class="activityCardWrapimg">
+						<img 
+						  class="activityCardWrapimgImg"
+						  src="assets/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
+						  alt="Un port de plaisance remplis de bateau en premier plan avec une ville dans le second plan" 
+						>
+					  </div>
+					  <h3 class="activityCardTitle">Vieux Port</h3>
+					</a>
+					<a href="#" class="activityCard activityCard2">
+					  <div class="activityCardWrapimg">
+						<img 
+						  class="activityCardWrapimgImg"
+						  src="assets/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" 
+						  alt="Desert rocailleux beige avec un fort elle aussi beige un peu plus loin dans l'image" 
+						>
+					  </div>
+					  <h3 class="activityCardTitle">Fort de Pomègues</h3>
+					</a>
+					<a href="#" class="activityCard activityCard3">
+					  <div class="activityCardWrapimg">
+						<img 
+						  class="activityCardWrapimgImg"
+						  src="assets/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" 
+						  alt="Paysage mélengeant roche et verdure en premier plan et une grande mer bleu en second plan" 
+						>
+					  </div>
+					  <h3 class="activityCardTitle">Parc National des Calanques</h3>
+					</a>
+					<a href="#" class="activityCard activityCard4">
+					  <div class="activityCardWrapimg">
+						<img 
+						  class="activityCardWrapimgImg"
+						  src="assets/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
+						  alt="Grande ville assez plate mais doté d'une colline qui mets en valeur un bâtiment, certainement religieux" 
+						>
+					  </div>
+					  <h3 class="activityCardTitle">Notre-Dame-de-la-Garde</h3>
+					</a>
+					<a href="#" class="activityCard activityCard5">
+					  <div class="activityCardWrapimg">
+						<img 
+						  class="activityCardWrapimgImg"
+						  src="assets/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
+						  alt="Longue vue sur terre en premier plan, mer en second plan et ile en troisième plan" 
+						>
+					  </div>
+					  <h3 class="activityCardTitle">Île du Frioul</h3>
+					</a>
+					<a href="#" class="activityCard activityCard6">
+					  <div class="activityCardWrapimg">
+						<img 
+						  class="activityCardWrapimgImg"
+						  src="assets/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" 
+						  alt="Majestueux batiment au pierres blanches dôté d'une fontaine, tout autant majestueuse" 
+						>
+					  </div>
+					  <h3 class="activityCardTitle">Parc Longchamp</h3>
+					</a>
+				  </section>
+		</div>
+	<!--FOOTER-->
             <footer class="flex">
                 <div class="aPropos">
                     <h3>A propos</h3>
