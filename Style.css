@@ -326,6 +326,7 @@ nav li a.hotel{
     margin: 4rem 0;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
+    margin-bottom: 3rem;
 }
 .activityTitle {
     grid-column: 1/-1;
@@ -560,7 +561,7 @@ footer a:hover{
 
     .descriptionPopulaire{
         margin: 0;
-        background-color: white;
+	    background-color: white;
         padding: 15px 10px 10px 20px;
     }
 
@@ -606,7 +607,6 @@ footer a:hover{
         margin-left: 10px;
     }
     .searchBar{
-        display: inline-flex;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
@@ -628,7 +628,9 @@ footer a:hover{
     }
 
     /* Popular - Tablet */
-    
+    .titlePopulaire{
+        margin-left: -45px;
+    }
     
     .iconePopulaire{
         justify-content: space-between;
