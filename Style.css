@@ -440,22 +440,16 @@ footer a:hover{
         width: 50%;
         text-align: center;
         padding: 20px 0;
-        border-bottom: 3px solid #f2f2f2;
+        
     }
     nav li a .hotel{
-        border-bottom: 3px solid #0065FC;
-        padding-bottom: 3px solid #0065FC;
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
     }
-    nav li a{
-        padding: inherit;
-    }
-
-    nav li a:hover{
-        border-top: none;
-    }
-
-    nav li:hover{
-        border-bottom-color:#0065FC;
+    
+    
+    nav li:active{
+        border-bottom: 0.125rem solid #0065fc;
     }
 
     .search{
@@ -499,6 +493,9 @@ footer a:hover{
         margin-left: -25px;
         flex-flow: row wrap;
     }
+    .filter span {
+        font-size: 12px;
+    }
 
     .containerHotels{
         display: flex;
@@ -529,14 +526,18 @@ footer a:hover{
     }
 
     .populaire{
+        order: -1;
         margin-left: -5vw;
         border-radius: 0;
         padding: 40px 20px 30px;
         margin-bottom: 40px;
     }
+    .titlePopulaire{
+        margin-left: 30px;
+    }
 
-    .iconePopulaire h2{
-        margin: 20px 0 20px 20px;
+    .iconePopulaire {
+        margin: 20px 0 20px 20px;   
     }
     .nomhotel{
         margin-top: 0;
@@ -570,7 +571,7 @@ footer a:hover{
         letter-spacing: 1px;
     }
     .activityCard{
-        margin: 0 0 30px 0;
+        margin-bottom: 30px;
     }
     .cartesAct{
         display: flex;
@@ -690,6 +691,7 @@ footer a:hover{
     .activityCard {
         height: 250px;
         width: 300px;
+        margin-bottom: 20px;
     }
 
     /* Footer - Tablet */
