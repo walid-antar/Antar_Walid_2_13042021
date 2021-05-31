@@ -437,16 +437,21 @@ footer a:hover{
     }
 
     nav li{
-        width: 50%;
+        width: 100%;
         text-align: center;
         padding: 20px 0;
-        
+        border-bottom: 2px solid rgb(185, 183, 183);    
     }
-    nav li a .hotel{
+    nav li a.hotel{
+        color:black;
+        border-top: none;
+        padding-bottom: 20px;
+    }
+     nav li a.hotel:hover{
         color: #0065FC;
         border-bottom: 2px solid #0065FC;
+        padding-bottom: 20px;
     }
-    
     
     nav li:active{
         border-bottom: 0.125rem solid #0065fc;
